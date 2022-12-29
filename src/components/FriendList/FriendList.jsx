@@ -29,5 +29,3 @@ FriendList.propTypes = {
     })
   ),
 };
-
-// подумати за key

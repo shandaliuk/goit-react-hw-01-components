@@ -21,8 +21,6 @@ export const Statistics = ({ title = null, stats }) => {
   );
 };
 
-// title подумати
-
 Statistics.propTypes = {
   title: PropTypes.string,
   stats: PropTypes.arrayOf(
