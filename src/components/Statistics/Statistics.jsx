@@ -5,7 +5,7 @@ import { StatsList, Stats, Title } from './Statistics.styled';
 export const Statistics = ({ title = null, stats }) => {
   return (
     <Stats>
-      {title && <Title className="title">Upload stats</Title>}
+      {title && <Title>Upload stats</Title>}
       <StatsList>
         {stats.map(item => {
           return (
